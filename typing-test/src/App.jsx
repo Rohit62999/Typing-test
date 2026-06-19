@@ -186,7 +186,7 @@ function App() {
                 ))
               ) : (
                 <div className="history-row" style={{ justifyContent: 'center', color: '#888' }}>
-                  <span>No battle data logged yet. Complete a run!</span>
+                  <span>No battle till now😔😔!</span>
                 </div>
               )}
             </div>
