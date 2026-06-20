@@ -42,7 +42,7 @@ function App() {
     if (isActive && timeLeft > 0) {
       interval = setInterval(() => {
         setTimeLeft((time) => time - 1);
-      }, 1000);
+      }, 100);
     } else if (timeLeft === 0) {
       clearInterval(interval);
       setIsActive(false);
